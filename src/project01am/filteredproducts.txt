@@ -1,0 +1,2 @@
+Product [id=6, prodName=iPhone 16 Pro, prodDesc=Iphone, prodCat=Mobile, price=2000.0, createdDate=Mon Oct 28 08:46:28 SGT 2024]
+Product [id=7, prodName=iPhone 14 Pro, prodDesc=Iphone, prodCat=Mobile, price=1800.0, createdDate=Mon Oct 28 08:46:28 SGT 2024]
