@@ -1,4 +1,4 @@
-package project01am;
+package task1totask5;
 
 import java.util.ArrayList;
 import java.util.stream.Collectors;
@@ -27,10 +27,7 @@ public class App {
                                                 .filter(c -> c.getPrice() > 1500.0)
                                                 .collect(Collectors.toList());
         
-        for (Product product : filteredProducts) {
-            System.out.println(product);
-            System.out.println();
-        }
+        filteredProducts.forEach(p -> System.out.println(p));
 
         //String filePath = args[0];
         String filePath = "src/project01am/filteredproducts.txt";
